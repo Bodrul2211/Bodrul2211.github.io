@@ -1,11 +1,84 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
 
-.banner-container{
+.banner-container {
     background-color: darkgray;
 }
-.banner-colum{
-    background-color:dimgray;
+
+.banner-colum {
+    background-color: dimgray;
+}
+
+.navbar-container {
+    top: 0;
+    background-color: green;
+
+    /* this is nabber still */
+    position: sticky;
+    z-index: 2;
+
+}
+
+.about-container {
+    background-color: darkslategray;
+}
+
+.education-container {
+    background-color: khaki;
+}
+
+.circle {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+
+.project-container {
+    background-color: dodgerblue;
+}
+
+.form-container {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.inner-form {
+    background-color: darkolivegreen;
+
+}
+
+.bg-redtype {
+    background-color: red;
+
+}
+
+.bg-redtype:hover{
+    color:black;
+    background-color: blanchedalmond;
+
+}
+
+.footer {
+    background-color: cornflowerblue;
+}
+
+.circle-for-icon {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+}
+
+.circle-for-icon :hover{
+   
+    background-color:white;
+    color:dimgray;
 }
